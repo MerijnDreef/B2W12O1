@@ -1,3 +1,15 @@
 body{
     font-family: 'Archivo', sans-serif;
 }
+.top{
+    position:sticky;
+    width:100%;
+    background-color: yellow;
+    line-height:70px;
+}
+.i{
+    font-size:40px;
+}
+@media(min-width: 678px){
+
+}
