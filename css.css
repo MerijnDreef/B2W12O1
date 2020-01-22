@@ -2,6 +2,12 @@
     margin:0;
     padding:0;
 }
+.footer{
+    width:100%;
+    line-height:20px;
+    background-color:#F7C244;
+    text-align:center;
+}
 body{
     font-family: 'Archivo', sans-serif;
 }
@@ -11,6 +17,13 @@ ul{
 li{
     display:inline;
 }
+#facebook{
+    margin-right:0.5rem;
+}
+#insta{
+    margin-right:0.5rem;
+}
+
 .knop{
     margin-top:2rem;
     margin-bottom:2rem;
@@ -29,7 +42,7 @@ li{
     z-index: 1000000000;
     width:100%;
     background-color: #EBD923;
-    line-height:70px;
+    height:70px;
 }
 .topsticky>ul {
     list-style:none;
@@ -38,6 +51,7 @@ li{
 .dropDownContent {
     display: none;
     color:#545454;
+    background-color:#EBD923;
     border:0.2px solid black; 
     line-height: 20px;
     padding-left:1rem;
@@ -80,6 +94,7 @@ hr{
     color:#DFDFDF;
     background-color:#DFDFDF;
     margin-left:1rem;
+    margin-bottom:1rem;
     width:90%;
 }
 h1{
@@ -104,12 +119,13 @@ h1{
     font-size:21px;
 }
 #icoon2{
-    margin-top:1rem;
+    margin-top:2rem;
     margin-left:2rem;
     color:#2B2F32;
     font-size:21px;
 }
 .video{
+    margin-top:4rem;
     width:95%;
     height:15rem;
     margin-left:1rem;
@@ -132,38 +148,50 @@ p{
     height:12rem;
     margin-bottom:1.5rem;
 }
+
 @media(min-width: 678px){
     .topsticky>ul {
-        list-style:block;
+        list-style-type:none;
         padding:0;
     }
+    #phone{
+        margin-left:40rem;
+    }
+    .topsticky{
+        height:40px;
+    }
     .dropDownContent {
-        display: inline-block;
+        margin-top:0.8rem;
+        border:none;
+        display:inline-block;
         color:#545454;
-       
     }
     .topsticky>ul:hover>li{
-        display:block;
+        display:inline-block;
     }
+    .top
     .top{
-        list-style:block;
+        list-style-type:none;
+        display:inline-block;
         padding:0;
     }
     .contentDropDown{
+        border:none;
         display:none;
         color:#7F7F7F;
-       
     }
     #bartop{
         display:none;
+        float:right;
     }
     #barbottom{
+        float:right;
         display:none;
     }
     hr{
         color:#DFDFDF;
         background-color:#DFDFDF;
-        width:98%;
+        width:30%;
     }
     h1{
         display:inline-block;
@@ -172,7 +200,6 @@ p{
     }
     .text{
         margin-left:2rem;
-        width:75%;
     }
     #icoon{
         margin-left:2rem;
@@ -191,10 +218,11 @@ p{
     }
     .video{
         width:95%;
-        height:15rem;
+        height:40rem;
         margin-left:1rem;
     }
     p{
+        display:inline-block;
         font-weight:500;
         font-size:16px;
         color:#212528;
@@ -204,13 +232,20 @@ p{
         margin-left:12rem;
         right:2px;
         top:14px;
-        width:450px;
-        height:8rem;
+        width:400px;
+        height:7rem;
     }
     #header{
         margin-top:1.5rem;
         width:100%;
-        height:32rem;
+        height:38rem;
         margin-bottom:1.5rem;
+    }
+    .boxtext{
+        width:33.33%;
+        float:left;
+    }
+    .knop{
+        margin-left:1.8rem;
     }
 }
