@@ -116,6 +116,12 @@ h1{
     margin-left:2rem;
     width:75%;
 }
+#pijlIcoon{
+    margin-left:0.5rem;
+}
+#pijlIcoon1{
+    margin-left:0.5rem;
+}
 #icoon{
     margin-left:2rem;
     color:#545454;
@@ -179,20 +185,22 @@ p{
     .topsticky>ul:hover>li{
         display:inline-block;
     }
-    .top>li{
-        margin-top:1rem;
-    }
     .top{
-        list-style-type:none;
-        display:inline;
+        display:inline-block;
+        position:relative;
         padding:0;
+        bottom:1rem;
         font-size:1.2rem;
-    }.top:hover>li{
+    }
+    .top:hover>li{
         display:inline-block;
     }
     .contentDropDown{
+        list-style:none;
         border:0.2px solid black;
         display:none;
+        left:0;
+        top:0;
         color:#7F7F7F;
         font-size:1.2rem;
     }
@@ -233,6 +241,18 @@ p{
         color:#545454;
         font-size:21px;
     }
+    #barText{
+        bottom:1rem;
+        position: relative;
+    }
+    #barText1{
+        bottom:1rem;
+        position: relative;
+    }
+    #barText2{
+        bottom:1rem;
+        position: relative;
+    }
     #icoon2{
         margin-top:0rem;
         margin-left:2rem;
@@ -251,11 +271,11 @@ p{
         color:#212528;
     }
     #logo{
-        position: relative;
+        position:relative;
         display:inline-block;
         margin-left:11rem;
         right:2px;
-        top:14px;
+        top:2rem;
         width:400px;
         height:7rem;
     }
