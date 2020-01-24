@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
 }
+a{
+    text-decoration:none;
+}
 .footer{
     width:100%;
     line-height:20px;
@@ -23,7 +26,6 @@ li{
 #insta{
     margin-right:0.5rem;
 }
-
 .knop{
     margin-top:2rem;
     margin-bottom:2rem;
@@ -73,6 +75,14 @@ li{
     line-height:20px;
     padding-left:1rem;
 }
+.downDropContent{
+    margin-top:0rem;
+    display:none;
+    color:#7F7F7F;
+    border:0.2px solid black;
+    line-height:20px;
+    padding-left:1rem;
+}
 #bartop{
     margin-top:10px;
     margin-left:20px;
@@ -83,7 +93,6 @@ li{
 }
 #barbottom{
     display:inline-block;
-    margin-bottom:15px;
     margin-left:20px;
     font-size:30px;
     padding:10px 20px;
@@ -146,6 +155,7 @@ p{
 #header{
     width:100%;
     height:12rem;
+    margin-top:1rem;
     margin-bottom:1.5rem;
 }
 
@@ -169,16 +179,27 @@ p{
     .topsticky>ul:hover>li{
         display:inline-block;
     }
-    .top
+    .top>li{
+        margin-top:1rem;
+    }
     .top{
         list-style-type:none;
-        display:inline-block;
+        display:inline;
         padding:0;
+        font-size:1.2rem;
+    }.top:hover>li{
+        display:inline-block;
     }
     .contentDropDown{
-        border:none;
+        border:0.2px solid black;
         display:none;
         color:#7F7F7F;
+        font-size:1.2rem;
+    }
+    .downDropContent{
+        display:inline;
+        color:#7F7F7F;
+        border:none;
     }
     #bartop{
         display:none;
@@ -191,7 +212,7 @@ p{
     hr{
         color:#DFDFDF;
         background-color:#DFDFDF;
-        width:30%;
+        width:80%;
     }
     h1{
         display:inline-block;
@@ -207,19 +228,21 @@ p{
         font-size:21px;
     }
     #icoon1{
+        margin-top:0rem;
         margin-left:2rem;
         color:#545454;
         font-size:21px;
     }
     #icoon2{
+        margin-top:0rem;
         margin-left:2rem;
         color:#2B2F32;
         font-size:21px;
     }
     .video{
-        width:95%;
+        width:97%;
         height:40rem;
-        margin-left:1rem;
+        margin-left:1.5rem;
     }
     p{
         display:inline-block;
@@ -229,7 +252,8 @@ p{
     }
     #logo{
         position: relative;
-        margin-left:12rem;
+        display:inline-block;
+        margin-left:11rem;
         right:2px;
         top:14px;
         width:400px;
